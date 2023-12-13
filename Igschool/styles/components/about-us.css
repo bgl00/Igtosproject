@@ -1,0 +1,35 @@
+.about-us{
+    background-color: #8458B3;
+    position: relative;
+}
+.developer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.creator {
+    width: 25%;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+.creator img{
+    height: 60%;
+    width: 70%;
+    border-radius: 50%;
+}
+.creator p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.creator h3{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+

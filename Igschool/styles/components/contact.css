@@ -1,0 +1,110 @@
+.contact-info{
+    display: flex;
+    justify-content: center;
+}
+.contact-item{
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8458B3;
+}
+.contact-item a{
+    color: #8458B3;
+    text-decoration: none;
+}
+.contact p{
+    text-align: center;
+    color: #000;
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+.contact-inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-inner input{
+    width: calc(33.3% - 30px);
+    margin-top: 20px;
+    padding: 10px 11px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #658987;
+    background-color: #fff;
+    border: 1px solid #c3c6cd;
+    border-radius: 5px;
+}
+.contact-inner textarea{
+    width: 100%;
+    margin: 20px 0;
+    height: 100px;
+    padding: 10px 11px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #658987;
+    background-color: #fff;
+    border: 1px solid #c3c6cd;
+    border-radius: 5px;
+}
+.contact-inner button{
+    margin: 0 auto 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 29px;
+    display: inline-block;
+    color: #fff;
+    border: none;
+    background-color: #8458B3;
+    padding: 10px 100px;
+    border-radius: 5px;
+}
+.contact-item a:hover{
+    color: #42464f;
+    text-decoration: underline;
+    transition: .3s;
+}
+.contact-inner button:hover{
+    background-color: #8458B3;
+    transition: .3s;
+}
+.contact-inner input::placeholder, .contact-inner textarea::placeholder{
+    color: #658997;
+}
+.contact{
+    background-color: #494d5f;
+    position: relative;
+}
+/* .contact::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 157px;
+    height: 68px;
+    background-image: url('../../images/section-white-circle.png');
+} */
+.footer p{
+    color: #658997;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+}
+.same-head{
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 35px;
+    line-height: 61px;
+    font-weight: 500;
+}
+.section-padding{
+    padding: 80px 0;
+}

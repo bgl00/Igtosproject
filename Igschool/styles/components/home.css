@@ -1,0 +1,32 @@
+.home{
+    background-color: #e5eaf5;
+}
+.home-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.home-left{
+    width: 50%;
+    position: relative;
+}
+.home-right{
+    width: 50%;
+    padding-top: 70px;
+}
+.home-right h1{
+    color: #494d5f;
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+.home-right em{
+    color: #494d5f;
+    font-size: 35px;
+    line-height: 61px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}

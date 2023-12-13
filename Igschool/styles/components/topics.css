@@ -1,0 +1,36 @@
+.topics{
+  background-color: #d0bdf4;
+}
+
+.topics-item video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.topics-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 50px 0;
+}
+.topics-item{
+  border: 10px solid #fff;
+  /* position: relative; */
+}
+.topics-item video{
+  /* position: relative; */
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+}
+.topics-item p{
+  text-align: center;
+  text-transform: uppercase;
+  color: #004aad;
+  padding: 10px;
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+}
